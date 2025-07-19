@@ -44,23 +44,39 @@
 <body class="bg-gray-50 text-gray-800 font-k2d tracking-wider">
 
   <!-- Header -->
-  <header class="bg-gray-50 text-green-700 py-2 shadow">
-      <div class="max-w-6xl mx-auto px-4 flex items-center justify-between">
-          <div class="flex items-center gap-2">
-              <img src="https://upload.wikimedia.org/wikipedia/th/thumb/b/b7/MJU_LOGO.svg/1200px-MJU_LOGO.svg.png"
-                  alt="MJU Logo" class="w-24 h-auto">
-              <div class="flex flex-col pr-2 border-r-2 border-gray-300">
-                  <span class="text-lg md:text-xl font-medium leading-snug">
-                      ระบบลงทะเบียน
-                  </span>
-                  <span class="text-lg md:text-xl font-medium leading-snug">
-                      มหาวิทยาลัยแม่โจ้
-                  </span>
-              </div>
-              <img src="MJU university.png" alt="รูปหลังเส้น" class="w-24 h-auto rounded-md">
-          </div>
-      </div>
-  </header>
+    <header class="bg-gray-50 text-green-700 py-2 shadow">
+        <div class="max-w-6xl mx-auto px-4 flex items-center justify-between">
+
+            <!--ข้อความบรรทัดเดียว -->
+            <div class="flex items-center gap-2">
+                <!-- โลโก้ -->
+                <img src="https://upload.wikimedia.org/wikipedia/th/thumb/b/b7/MJU_LOGO.svg/1200px-MJU_LOGO.svg.png"
+                    alt="MJU Logo" class="w-24 h-auto">
+
+                <!-- ข้อความสองบรรทัด + เส้นแนวตั้ง -->
+                <div class="flex flex-col pr-2 border-r-2 border-gray-300">
+                    <span class="text-lg md:text-xl font-medium leading-snug">
+                        ระบบลงทะเบียน
+                    </span>
+                    <span class="text-lg md:text-xl font-medium leading-snug">
+                        มหาวิทยาลัยแม่โจ้
+                    </span>
+                </div>
+
+                <!-- รูปด้านหลังเส้น -->
+                <img src="MJU university.png" alt="รูปหลังเส้น" class="w-24 h-auto rounded-md">
+            </div>
+
+            <!-- ปุ่มออกจากระบบ -->
+            <div>
+                <a href="index.html"
+                    class="bg-green-700 hover:bg-red-600 text-white font-medium py-4 px-6 rounded transition duration-300 ease-in-out">
+                    Logout
+                </a>
+            </div>
+
+        </div>
+    </header>
 
   <!-- Navigation Bar -->
   <nav class="bg-green-700 border-b relative">
